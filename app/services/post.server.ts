@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-const postsPath = path.join(__dirname, '../posts');
+const postsPath = path.join(__dirname, 'posts');
 
 export interface Post {
   title: string;
